@@ -47,15 +47,6 @@ The sensor model, wiring, and supply requirements will be documented after hardw
 
 Fill levels are approximate estimates based on measured surface height, rather than precise measurements of occupied volume.
 
-## Project plan
-
-- [ ] Research and design: select components and define fill-level categories.
-- [ ] Hardware assembly: mount the sensor and connect it to the ESP32.
-- [ ] Detection algorithm: calibrate distance readings and classify fill levels.
-- [ ] Wireless and dashboard: send bin status over Wi-Fi and display it online.
-- [ ] Performance testing: measure classification accuracy under different trash arrangements.
-- [ ] Integration and demonstration: demonstrate the system and summarize its limitations.
-
 ## Repository structure
 
 | Folder | Purpose |
@@ -67,9 +58,3 @@ Fill levels are approximate estimates based on measured surface height, rather t
 | `tests/` | Test procedures, measurements, and results |
 
 These folders are starting points for future work. Setup and run instructions will be added alongside each implementation.
-
-## Working together
-
-Add files to the relevant folder, describe each change in a commit, and update this README when setup instructions or project behavior change. Use issues to track tasks and pull requests for changes that benefit from team review.
-
-Keep local credentials and Wi-Fi passwords out of commits. Share example configuration files containing placeholders when configuration is needed.
