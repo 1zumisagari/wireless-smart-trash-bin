@@ -1,0 +1,16 @@
+.DS_Store
+Thumbs.db
+.env
+.env.*
+!.env.example
+secrets.h
+secrets.json
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pio/
+build/
+dist/
+*.log
